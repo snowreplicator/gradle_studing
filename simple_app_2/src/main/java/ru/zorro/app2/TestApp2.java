@@ -1,4 +1,4 @@
-package ru.zorro.app1;
+package ru.zorro.app2;
 
 import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;

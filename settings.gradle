@@ -1,0 +1,8 @@
+//
+// https://coderlessons.com/articles/java/nachalo-raboty-s-gradle-sozdanie-mnogoproektnoi-sborki
+//
+
+include 'simple_app_1'
+include 'simple_app_2'
+
+

@@ -1,3 +1,4 @@
+/*
 apply plugin: 'java'
 
 compileJava {
@@ -8,13 +9,17 @@ dependencies {
     compileOnly group: "joda-time", name: "joda-time", version: "2.12.5"
     runtimeOnly group: "joda-time", name: "joda-time", version: "2.12.5"
 }
+*/
 
-
+/*
 // группа и версия для pom
 group = "ru.zorro.gradle_studing"
-version = "1.0.0"
+version = "2.0.0"
+*/
 
 
+
+/*
 //
 // унификация имени выходного jar
 // получаем jar состоящий из имени артефакта + .jar (без версии)
@@ -23,22 +28,25 @@ configurations {
     jar.archiveName = project.name + '.jar'
 }
 archivesBaseName = project.name
+*/
 
 
-
+/*
 // репозитории
 repositories {
     mavenLocal()
     mavenCentral()
 }
+*/
 
-
+/*
 // запуск проекта (gradle run)
 apply plugin: 'application'
 mainClassName = 'ru.zorro.app2.TestApp2'
+*/
 
 
-
+/*
 // публикация
 apply plugin: 'maven-publish'
 
@@ -76,3 +84,5 @@ jar {
                 "project-version":   project.version)
     }
 }
+*/
+
